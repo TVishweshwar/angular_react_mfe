@@ -15,6 +15,8 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { RouterLinkActive } from '@angular/router';
 import { DynamicLoaderComponent } from './dynamic-loader/dynamic-loader.component';
+import { PublisherComponent } from './publisher/publisher.component';
+import { ReceiverComponent } from './receiver/receiver.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,6 +25,8 @@ import { DynamicLoaderComponent } from './dynamic-loader/dynamic-loader.componen
     LayoutComponent,
     PageNotFoundComponent,
     DynamicLoaderComponent,
+    PublisherComponent,
+    ReceiverComponent,
   ],
   imports: [
     BrowserModule,
